@@ -1,6 +1,8 @@
 ## DO NOT EDIT!
 # This file was provisioned by Terraform
-# File origin: https://github.com/Arrow-air/tf-github/tree/main/src/templates/tf-gcp/Makefile
+# File origin: https://github.com/Arrow-air/tf-github/tree/main/src/templates/tf-all/Makefile
+
+DOCKER_NAME := arrow-tf-gcp-services-app
 
 include .make/env.mk
 export
